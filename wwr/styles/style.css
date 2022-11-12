@@ -1,0 +1,117 @@
+/* Page */
+
+body {
+    background: #FFFFFF;
+    margin: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #DAE7FF 59%, #1C6EA4 100%);
+    background: -webkit-linear-gradient(top, #FFFFFF 0%, #DAE7FF 59%, #1C6EA4 100%);
+    background: linear-gradient(to bottom, #FFFFFF 0%, #DAE7FF 59%, #1C6EA4 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navigation */
+
+.logo {
+    width: 80px;
+}
+
+nav a, #hero-msg h1, #hero-msg h4, .button-box, main, section {
+    text-align: center;
+    transition: ease-in-out 0.3s;
+}
+
+nav a {
+    color: #809BCE;
+}
+
+nav a:hover {
+    background-color: #F26419;
+    color: white
+}
+
+header {
+    background-color: #F6F5AE;
+}
+
+/* Main */
+
+#hero-img {
+    width: 100%;
+}
+
+.home-title {
+    color: #809BCE;
+}
+
+section h4 {
+    color: rgb(255, 156, 173);
+}
+
+.icon {
+    width: 50px;
+    filter: brightness(200%);
+}
+
+.book, .join {
+    color: #565554;
+    font-weight: 600;
+    background-color: #96efa6;
+    padding: 5px 15px;
+    margin: 12px;
+    border-radius: 8px;
+    transition: ease-in-out 0.3s;
+}
+
+.book:hover, .join:hover {
+    background-color: #1de727;
+    color: white;
+}
+
+#background {
+    height: 725px;
+    background-color: #565554;
+}
+
+.msg {
+    background-color: pink;
+}
+
+.msg h2{
+    background-color: white;
+}
+
+.msg p {
+    color: #565554;
+}
+
+footer {
+    background-color: #565554;
+    color: white;
+}
+
+footer p {
+    font-size: 1.2em;
+    transition: ease-in-out 0.3s;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
+footer a:hover {
+    color: rgb(172, 172, 172);
+}
