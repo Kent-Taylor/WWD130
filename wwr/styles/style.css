@@ -1,8 +1,14 @@
 /* Page */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+  /* --heading-font: 'Poppins', sans-serif;
+  --paragraph-font: 'Open Sans', sans-serif; */
 body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
     background: #FFFFFF;
     margin: 0;
+    padding: 0;
 }
 
 #content {
@@ -12,14 +18,26 @@ body {
     background: linear-gradient(to bottom, #FFFFFF 0%, #DAE7FF 59%, #001c50 100%);
 }
 
+h2 {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
 }
 
 /* Navigation */
 
+.home-title, .msg h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
 .logo {
     width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 nav a, #hero-msg h1, #hero-msg h4, .button-box, main, section {
@@ -29,6 +47,7 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main, section {
 
 nav a {
     color: #809BCE;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -42,11 +61,17 @@ header {
 
 /* Main */
 
+main section img {
+    box-sizing: border-box;
+}
+
 #hero-img {
     width: 100%;
 }
 
 .home-title {
+    margin-top: 10px;
+    font-size: 2em;
     color: #809BCE;
 }
 
@@ -55,11 +80,15 @@ section h4 {
 }
 
 .icon {
+    padding-top: 10px;
     width: 50px;
-    filter: brightness(200%);
 }
 
 .book, .join {
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-size: 18px;
     color: #565554;
     font-weight: 600;
     background-color: #96efa6;
@@ -74,13 +103,23 @@ section h4 {
     color: white;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0px;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
 #background {
     height: 725px;
     background-color: #565554;
 }
 
 .msg {
+    padding: 35px;
     background-color: pink;
+    line-height: 1.5em;
 }
 
 .msg h2{
@@ -88,12 +127,22 @@ section h4 {
 }
 
 .msg p {
+    padding-bottom: 15px;
+    font-size: 0.8em;
     color: #565554;
 }
 
+/* Footer */
+
 footer {
+    margin-top: 200px;
+    padding: 25px 50px;
     background-color: #565554;
     color: white;
+}
+
+footer > .social img {
+    padding-top: 15px;
 }
 
 footer p {
