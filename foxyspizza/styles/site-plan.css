@@ -31,7 +31,7 @@ Fonts are separated by a | */
   --paragraph-background-color: var(--bermuda-gray)  ;
   --nav-link-color: var(--almond);
   --nav-background-color: var(--fuel-yellow);
-  --nav-hover-link-color: var(--smalt);
+  --nav-hover-link-color: white;
   --nav-hover-background-color: var(--bermuda-gray);
 }
 
