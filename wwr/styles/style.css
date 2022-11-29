@@ -251,6 +251,45 @@ footer a:hover {
     color: rgb(172, 172, 172);
 }
 
+/* FAQ Page */
+
+.faq-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.side-images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.side-images img {
+    max-width: 500px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #000000;
+    border: 1px solid black;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.faq-container h2 {
+    background-color: #19c3f2;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    width: 70%;
+    text-align: center;
+}
+
 /* Media Queries */
 
 
@@ -267,7 +306,14 @@ footer a:hover {
     nav a {
         display: block;
         padding: 15px;
+        margin: 0px 15px;
     }
+
+    .logo {
+        width: 200px;
+        z-index: 2;
+    }
+
     #hero {
         margin-top: 0;
     }
@@ -295,5 +341,20 @@ footer a:hover {
     }
     footer {
         margin-top: 25px;
+    }
+
+    /* FAQ Page Media Queries */
+
+    .faq-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .faq-container {
+        order: 1;
+    }
+
+    .side-images {
+        order: 2;
     }
 }
