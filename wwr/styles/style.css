@@ -292,86 +292,71 @@ footer a:hover {
 
     /* contact us page */
 
-    #feedback {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100%;
-        align-items: center;
-        background-color: antiquewhite;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        padding: .5em;
-        /* make this element invisible until we are ready for it */
-        display: none;
-    }
-
-    .contact-page-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-
     form {
-        color: white;
-        background: #1ac3f2;
-        padding: 21px 42px;
-        border-radius: 12px;
-    }
+        /* Center the form on the page */
+        margin: 0 auto;
+        width: 400px;
+        /* Form outline */
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 1em;
+      }
 
-    .input-wrapper {
-        display: flex;
-        flex-direction: column;
-    }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
 
-    input {
-        text-align: left;
-        margin: 8px;
-        outline: none;
-        background: transparent;
-        border: none;
-        border-bottom: 2px solid white;
-        color: white;
-        margin-bottom: 15px;
-    }
+      form li + li {
+        margin-top: 1em;
+      }
 
-    ::placeholder {
-        color: rgba(255, 255, 255, 0.723);
-    }
+      label {
+        /* Uniform size & alignment */
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+      }
 
-    textarea {
-        resize: none;
-        height: 100px;
+      input,
+      textarea {
+        /* To make sure that all text fields have the same font settings
+           By default, textareas have a monospace font */
+        font: 1em sans-serif;
+
+        /* Uniform text field size */
         width: 300px;
-        outline: none;
-        padding: 15px;
-    }
+        box-sizing: border-box;
 
-    textarea::placeholder {
-        color: #1ac3f2;;
-    }
+        /* Match form field borders */
+        border: 1px solid #999;
+      }
 
-    button {
-        color: white;
-        background-color: #d66900;
-        text-decoration: none;
-        outline: none;
-        border: none;
-        padding: 5px 10px;
-        border-radius: 12px;
-        font-size: 1.1em;
-        margin: 10px;
-        font-weight: 200;
-    }
+      input:focus,
+      textarea:focus {
+        /* Additional highlight for focused elements */
+        border-color: #000;
+      }
 
-    .moveDown {
-        margin-top: 3em;
-    }
+      textarea {
+        /* Align multiline text fields with their labels */
+        vertical-align: top;
 
+        /* Provide space to type some text */
+        height: 5em;
+      }
+
+      .button {
+        /* Align buttons with the text fields */
+        padding-left: 90px; /* same size as the label elements */
+      }
+
+      button {
+        /* This extra margin represent roughly the same space as the space
+           between the labels and their text fields */
+        margin-left: 0.5em;
+      }
 /* Media Queries */
 
 
