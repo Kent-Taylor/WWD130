@@ -17,6 +17,8 @@ body {
     max-width: 1600px;
     margin: 0 auto;
     background: #FFFFFF;
+    height: 100vh;
+    justify-content: space-between;
     /* background: linear-gradient(to bottom, #FFFFFF 0%, #DAE7FF 59%, #001c50 100%); */
 }
 
