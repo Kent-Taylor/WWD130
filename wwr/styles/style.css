@@ -290,6 +290,88 @@ footer a:hover {
     text-align: center;
 }
 
+    /* contact us page */
+
+    #feedback {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        background-color: antiquewhite;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: .5em;
+        /* make this element invisible until we are ready for it */
+        display: none;
+    }
+
+    .contact-page-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    form {
+        color: white;
+        background: #1ac3f2;
+        padding: 21px 42px;
+        border-radius: 12px;
+    }
+
+    .input-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        text-align: left;
+        margin: 8px;
+        outline: none;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid white;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    ::placeholder {
+        color: rgba(255, 255, 255, 0.723);
+    }
+
+    textarea {
+        resize: none;
+        height: 100px;
+        width: 300px;
+        outline: none;
+        padding: 15px;
+    }
+
+    textarea::placeholder {
+        color: #1ac3f2;;
+    }
+
+    button {
+        color: white;
+        background-color: #d66900;
+        text-decoration: none;
+        outline: none;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 12px;
+        font-size: 1.1em;
+        margin: 10px;
+        font-weight: 200;
+    }
+
+    .moveDown {
+        margin-top: 3em;
+    }
+
 /* Media Queries */
 
 
@@ -357,4 +439,6 @@ footer a:hover {
     .side-images {
         order: 2;
     }
+
+
 }
