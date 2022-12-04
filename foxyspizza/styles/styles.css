@@ -1,0 +1,41 @@
+/* Navigation */
+
+.logo img, .footer-logo img {
+    width: 120px;
+}
+
+/* Home Main */
+
+/* left home */
+.order-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
+    height: 300px;
+    width: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.order-box a {
+    color: white;
+    text-align: center;
+}
+/* right home */
+
+/* footer */
+
+/* Menu Page */
+
+.menu-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1542834369-f10ebf06d3e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHBpenphJTIwb3ZlZW58ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
+    height: 300px;
+    width: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
