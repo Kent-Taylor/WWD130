@@ -185,6 +185,13 @@ nav {
     background: #043393cf;
 }
 
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .testimonial-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
