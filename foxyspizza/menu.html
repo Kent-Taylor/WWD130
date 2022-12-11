@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Menu</title>
     <link rel="stylesheet" href="./styles/styles.css" />
     <script
       src="https://kit.fontawesome.com/14ae188149.js"
@@ -25,75 +25,242 @@
       </div>
     </nav>
     <main class="menu-container">
-      <div class="menu-header-container">
-        <header>
-          <h1>Menu</h1>
-          <p>
-            <span class="menu-font-one">Bold Flavors.</span
-            ><span class="menu-font-two"> Ancient Techniques.</span
-            ><span class="menu-font-three"
-              >Modernized to match your groove.</span
-            >
-            <span
-              >From 90 year old techniques to our modernized flavors, Foxy's
-              pizza creates a delicious space to hang out with your friends. Our
-              pies are hand crafted and we always promise that nothing is ever
-              frozen. Our meats, cheeses and veggies are purchased locally with
-              no preservatives or pesticides.</span
-            >
-          </p>
-        </header>
+      <h1 class="menu-header">Menu</h1>
+
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img
+            src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60"
+            style="width: 100%"
+            alt="pizza 1"
+          />
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img
+            src="https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60"
+            style="width: 100%"
+            alt="pizza 2"
+          />
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img
+            src="https://images.unsplash.com/photo-1579751626657-72bc17010498?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHBpenphJTIwOTAwJTIwJUMzJTk3JTIwNjAwJTIwcHh8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=600"
+            style="width: 100%"
+            alt="pizza 3"
+          />
+          <div class="text">Caption Three</div>
+        </div>
       </div>
-      <div class="menu-container">
+
+      <div class="card-container">
         <div class="crust card">
           <h1>Crust</h1>
           <div class="list-items">
-            <ul>
-              <li>New York</li>
-              <li>Garlic</li>
-              <li>Buttery</li>
-              <li>Gluten Free</li>
-              <li>Vegan</li>
-            </ul>
+            <div class="item">
+              <input type="checkbox" id="NewYork" name="checkbox" value="1" />
+              <label class="container" for="NewYork">New York</label>
+            </div>
+            <div class="item">
+              <input type="checkbox" id="Garlic" name="checkbox" value="1" />
+              <label class="container" for="Garlic">Garlic</label>
+            </div>
+            <div class="item">
+              <input type="checkbox" id="Butter" name="checkbox" value="1" />
+              <label class="container" for="Butter">Butter</label>
+            </div>
+            <div class="item">
+              <input
+                type="checkbox"
+                id="GlutenFree"
+                name="checkbox"
+                value="1"
+              />
+              <label class="container" for="GlutenFree">Gluten Free</label>
+            </div>
+            <div class="item">
+              <input type="checkbox" id="Vegan" name="checkbox" value="1" />
+              <label class="container" for="Vegan">Vegan</label>
+            </div>
           </div>
         </div>
         <div class="sauce card">
           <h1>Sauce</h1>
           <div class="list-items">
-            <ul>
-              <li>Original</li>
-              <li>Foxy's Specialty</li>
-              <li>Alfredo</li>
-              <li>6 Cheese Alfredo</li>
-              <li>Pesto</li>
-              <li>White Garlic</li>
-              <li>Garlic Ranch</li>
-            </ul>
+            <div class="item">
+              <input type="checkbox" id="Original" name="checkbox" value="1" />
+              <label class="container" for="Original">Original</label>
+            </div>
+            <div class="item">
+              <input
+                type="checkbox"
+                id="FoxysSpecialty"
+                name="checkbox"
+                value="1"
+              />
+              <label class="container" for="FoxysSpecialty"
+                >Foxy's Specialty</label
+              >
+            </div>
+            <div class="item">
+              <input type="checkbox" id="Alfredo" name="checkbox" value="1" />
+              <label class="container" for="Alfredo">Alfredo</label>
+            </div>
+            <div class="item">
+              <input
+                type="checkbox"
+                id="6CheeseAlfredo"
+                name="checkbox"
+                value="1"
+              />
+              <label class="container" for="6CheeseAlfredo"
+                >6 Cheese Alfredo</label
+              >
+            </div>
+            <div class="item">
+              <input type="checkbox" id="Pesto" name="checkbox" value="1" />
+              <label class="container" for="Pesto">Pesto</label>
+            </div>
+            <div class="item">
+              <input
+                type="checkbox"
+                id="WhiteGarlic"
+                name="checkbox"
+                value="1"
+              />
+              <label class="container" for="WhiteGarlic">White Garlic</label>
+            </div>
+            <div class="item">
+              <input
+                type="checkbox"
+                id="GarlicRanch"
+                name="checkbox"
+                value="1"
+              />
+              <label class="container" for="GarlicRanch">Garlic Ranch</label>
+            </div>
           </div>
         </div>
         <div class="toppings card">
           <h1>Toppings</h1>
+          <h3>Meats</h3>
           <div class="list-items">
-            <h3>Meats</h3>
-            <ul>
-              <li>Pepperoni</li>
-              <li>Salami</li>
-              <li>Ham</li>
-              <li>Elk Sausage</li>
-              <li>Bacon</li>
-              <li>Steak</li>
-              <li>Garlic Chicken</li>
-            </ul>
+            <div class="item">
+              <input type="checkbox" id="Pepperoni" name="checkbox" value="1" />
+              <label class="container" for="Pepperoni">Pepperoni</label>
+            </div>
+            <div class="item">
+              <input type="checkbox" id="Salami" name="checkbox" value="1" />
+              <label class="container" for="Salami">Salami</label>
+            </div>
+            <div class="item">
+              <input type="checkbox" id="Ham" name="checkbox" value="1" />
+              <label class="container" for="Ham">Ham</label>
+            </div>
+            <div class="item">
+              <input
+                type="checkbox"
+                id="ElkSausage"
+                name="checkbox"
+                value="1"
+              />
+              <label class="container" for="ElkSausage">Elk Sausage</label>
+            </div>
+            <div class="item">
+              <input type="checkbox" id="Bacon" name="checkbox" value="1" />
+              <label class="container" for="Bacon">Bacon</label>
+            </div>
+            <div class="item">
+              <input type="checkbox" id="Steak" name="checkbox" value="1" />
+              <label class="container" for="Steak">Steak</label>
+            </div>
+            <div class="item">
+              <input
+                type="checkbox"
+                id="GarlicChicken"
+                name="checkbox"
+                value="1"
+              />
+              <label class="container" for="GarlicChicken"
+                >Garlic Chicken</label
+              >
+            </div>
             <h3>Veggies</h3>
-            <ul>
-              <li>Green Peppers</li>
-              <li>Red Peppers</li>
-              <li>Black Olives</li>
-              <li>Green Olives</li>
-              <li>Jalapenos</li>
-              <li>Purple Onions</li>
-              <li>Mushrooms</li>
-            </ul>
+            <div class="list-items">
+              <div class="item">
+                <input
+                  type="checkbox"
+                  id="GreenPeppers"
+                  name="checkbox"
+                  value="1"
+                />
+                <label class="container" for="GreenPeppers"
+                  >Green Peppers</label
+                >
+              </div>
+              <div class="item">
+                <input
+                  type="checkbox"
+                  id="RedPeppers"
+                  name="checkbox"
+                  value="1"
+                />
+                <label class="container" for="RedPeppers">Red Peppers</label>
+              </div>
+              <div class="item">
+                <input
+                  type="checkbox"
+                  id="BlackOlives"
+                  name="checkbox"
+                  value="1"
+                />
+                <label class="container" for="BlackOlives">Black Olives</label>
+              </div>
+              <div class="item">
+                <input
+                  type="checkbox"
+                  id="GreenOlives"
+                  name="checkbox"
+                  value="1"
+                />
+                <label class="container" for="GreenOlives">Green Olives</label>
+              </div>
+              <div class="item">
+                <input
+                  type="checkbox"
+                  id="Jalapenos"
+                  name="checkbox"
+                  value="1"
+                />
+                <label class="container" for="Jalapenos">Jalapenos</label>
+              </div>
+              <div class="item">
+                <input
+                  type="checkbox"
+                  id="PurpleOnions"
+                  name="checkbox"
+                  value="1"
+                />
+                <label class="container" for="PurpleOnions"
+                  >Purple Onions</label
+                >
+              </div>
+              <div class="item">
+                <input
+                  type="checkbox"
+                  id="Mushrooms"
+                  name="checkbox"
+                  value="1"
+                />
+                <label class="container" for="Mushrooms">Mushrooms</label>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -118,5 +285,33 @@
         </div>
       </div>
     </footer>
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+      // // Next/previous controls
+      // function plusSlides(n) {
+      //   showSlides((slideIndex += n));
+      // }
+
+      // // Thumbnail image controls
+      // function currentSlide(n) {
+      //   showSlides((slideIndex = n));
+      // }
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+      }
+    </script>
   </body>
 </html>
