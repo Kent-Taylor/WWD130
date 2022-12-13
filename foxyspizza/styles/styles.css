@@ -377,9 +377,10 @@ footer i {
 
 /* Caption text */
 .text {
+  font-family: var(--paragraph-font);
     background: #050504c7;
     color: #f2f2f2;
-    font-size: 15px;
+    font-size: 26px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -442,11 +443,12 @@ footer i {
 }
 
 .card h1 {
-    border: 5px solid var(--accent1-color);
-    color: white;
-    margin: 12px 35px;
-    padding: 12px;
-    border-radius: 15px;
+  color: white;
+  margin: 12px 35px;
+  padding: 12px;
+  border-radius: 15px;
+  background: black;
+  font-size: 1.4em;
 }
 
 .card h3 {
