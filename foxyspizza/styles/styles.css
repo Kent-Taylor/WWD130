@@ -106,6 +106,15 @@ nav {
     padding: 42px 80px;
 }
 
+/* Left Main */
+
+.left-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 
 /* right home */
 
@@ -126,7 +135,7 @@ nav {
 .title-wrapper h2 {
     padding: 8px 15px;
     position: absolute;
-    top: 232px;
+    top: 275px;
     background: var(--vermilion);
     color: var(--nav-hover-link-color);
 }
