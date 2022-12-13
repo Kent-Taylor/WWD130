@@ -134,8 +134,8 @@ nav {
 
 .title-wrapper h2 {
     padding: 8px 15px;
-    position: absolute;
-    top: 275px;
+    position: fixed;
+    top: 230px;
     background: var(--vermilion);
     color: var(--nav-hover-link-color);
 }
@@ -160,7 +160,6 @@ nav {
 .mission img {
     width: 100%;
     border-radius: 15px;
-
 }
 
 /* left home */
