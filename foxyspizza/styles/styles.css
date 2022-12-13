@@ -592,11 +592,28 @@ label {
 }
 
 textarea {
-  height: 40%;
+  height: 30%;
   width: 120%;
   padding: 18px;
   resize: none;
   outline: none;
+}
+
+#button {
+  margin: 12px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 12px;
+  background: var(--accent1-color);
+  color: white;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: ease-in 0.25s;
+}
+
+#button:hover {
+  background-color: #fa774b;
 }
 
 .contact-card-container section, iframe {
@@ -618,6 +635,11 @@ textarea {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+}
+
+.contact-us a {
+  text-decoration: none;
+  color: white;
 }
 
 iframe {

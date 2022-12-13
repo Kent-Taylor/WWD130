@@ -48,7 +48,7 @@
           </div>
         </section>
         <section class="contact-card message-us">
-          <div class="card-content">
+          <form class="card-content">
             <h2>Message Us</h2>
             <div class="input-wrapper">
               <label for="name">Name:</label>
@@ -63,7 +63,8 @@
               <input type="email" name="email" />
             </div>
             <textarea placeholder="Your Message" name="message"></textarea>
-          </div>
+            <button id="button" type="submit" onclick="send()">Send</button>
+          </form>
         </section>
         <section class="contact-card map-wrapper">
           <div class="card-content">
@@ -125,5 +126,11 @@
         <div class="social-wrapper"></div>
       </div>
     </footer>
+    <script>
+      const send = () =>{
+        document.getElementById('button').innerHTML = "Message Sent";
+
+      }
+    </script>
   </body>
 </html>
