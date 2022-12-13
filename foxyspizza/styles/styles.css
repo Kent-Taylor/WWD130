@@ -244,16 +244,31 @@ box-shadow:  9px 9px 13px #b5b5b5,
 /* footer */
 
 footer {
-    display: grid;
-    grid-template-columns: 200px 1fr 300px;
+    display: flex;
+    flex-direction: column;
     background: var(--accent2-color);
     width: 100vw;
 }
 
 footer img {
-    width: 85px;
+    width: 110px;
     position: absolute;
     margin: 10px;
+}
+
+.top-footer {
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+  background: var(--accent2-color);
+  width: 100vw;
+}
+
+.bottom-footer {
+  text-align: center;
+  background: var(--accent2-color);
+  color: white;
+  display: grid;
+  grid: 2;
 }
 
 .footer-links-wrapper {
@@ -269,6 +284,13 @@ footer img {
     align-items: center;
     flex-direction: column;
     background-color: var(--fuel-yellow);
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-links-wrapper a:hover {
@@ -518,16 +540,55 @@ footer i {
 
 /* Contact Page */
 
-.contact-us {
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+.contact-container h1 {
+  margin: 42px;
+  font-size: 3em;
+}
+
+.contact-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  padding: 0px 50px;
+}
+
+.contact-card-container section, iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 600px;
+  width: 450px;
+  margin:  0px 42px 42px;
+  border-radius: 15px;
+}
+
+.contact-us {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url('https://images.unsplash.com/photo-1571066811602-716837d681de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
-    height: 600px;
-    width: 450px;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    border-radius: 15px;
+}
+
+iframe {
+  height: 100%;
+  margin: 0px;
+}
+
+.card-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
