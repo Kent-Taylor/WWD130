@@ -597,6 +597,7 @@ textarea {
   padding: 18px;
   resize: none;
   outline: none;
+  margin: 15px;
 }
 
 #button {
@@ -620,11 +621,12 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
   height: 600px;
   width: 450px;
   margin:  0px 42px 42px;
   border-radius: 15px;
+  box-shadow: 9px 9px 13px #b5b5b5, -9px -9px 13px #ffffff;
+
 }
 
 .contact-us {
@@ -637,6 +639,32 @@ textarea {
     color: white;
 }
 
+.black-back {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.68);
+  width: auto;
+  height: 20px;
+  padding: 30px;
+  font-size: 1.2em;
+}
+
+.black-back p {
+  color: white;
+  font-size: 1.2em;
+}
+
+.black-back a {
+  margin: 8px;
+}
+
+.black-back h3 {
+  color:#2196F3
+}
+
+.black-back h2 {
+  color:#2196F3
+}
+
 .contact-us a {
   text-decoration: none;
   color: white;
@@ -645,6 +673,48 @@ textarea {
 iframe {
   height: 100%;
   margin: 0px;
+}
+
+.to-order {
+  background-color: #2196F3;
+  color: white;
+}
+
+.to-order h2, .to-order h3 {
+  color: white;
+}
+
+.to-order h2 {
+  background: #b62e00;
+  padding: 8px 15px;
+}
+
+.to-order a {
+  color: white;
+  margin-left: 8px;
+}
+
+.to-order i {
+  text-shadow: #050504;
+  margin: 15px;
+  font-size: 4em;
+transition: ease-in 0.25s;
+}
+
+.to-order i:hover {
+  filter: brightness(85%);
+}
+
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+.payments {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card-content {
