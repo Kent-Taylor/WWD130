@@ -274,7 +274,6 @@ footer img {
   background: var(--accent2-color);
   color: white;
   display: grid;
-  grid: 2;
 }
 
 .footer-links-wrapper {
@@ -695,10 +694,9 @@ iframe {
 }
 
 .to-order i {
-  text-shadow: #050504;
   margin: 15px;
   font-size: 4em;
-transition: ease-in 0.25s;
+  transition: ease-in 0.25s;
 }
 
 .to-order i:hover {
